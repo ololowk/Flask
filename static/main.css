@@ -1,0 +1,45 @@
+body{
+    background-color:#2c3e50;
+    margin:0;
+    padding:0;
+}
+
+A{
+    color:#37963d;
+}
+
+h1{
+    font-style: Courier New, monospace  ;
+
+    color: #42a7f4;
+}
+
+h3{
+    color:#e28e18;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: linear-gradient(45deg,#ff4c1d,#9b0063,#3f00ff);
+
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
