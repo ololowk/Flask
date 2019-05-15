@@ -61,8 +61,6 @@ def sites():
 def about_me():
     return render_template('about_me.html')
 
-
-@app.route('/contacts')
-def contacts():
-    return render_template('contacts.html')
-
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
